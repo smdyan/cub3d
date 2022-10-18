@@ -6,10 +6,11 @@
 /*   By: loadarys <loadarys@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 18:34:27 by loadarys          #+#    #+#             */
-/*   Updated: 2022/10/18 13:49:36 by loadarys         ###   ########.fr       */
+/*   Updated: 2022/10/18 15:00:59 by loadarys         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {

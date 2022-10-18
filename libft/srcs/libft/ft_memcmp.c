@@ -6,10 +6,11 @@
 /*   By: loadarys <loadarys@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 18:33:02 by loadarys          #+#    #+#             */
-/*   Updated: 2022/10/18 13:49:36 by loadarys         ###   ########.fr       */
+/*   Updated: 2022/10/18 14:59:34 by loadarys         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
