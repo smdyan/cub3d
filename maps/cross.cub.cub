@@ -8,7 +8,7 @@ NO        ./textures/blue_light.xpm
 
 EA        ./textures/win_blue_light.xpm
 
-C 225,30,0
+C 255,255,255
 
             111111111111
             100000000001
