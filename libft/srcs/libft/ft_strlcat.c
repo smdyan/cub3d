@@ -6,10 +6,11 @@
 /*   By: loadarys <loadarys@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/07 19:17:49 by loadarys          #+#    #+#             */
-/*   Updated: 2022/10/18 13:49:36 by loadarys         ###   ########.fr       */
+/*   Updated: 2022/10/18 15:00:30 by loadarys         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {

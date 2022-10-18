@@ -6,10 +6,11 @@
 /*   By: loadarys <loadarys@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/11 16:44:15 by loadarys          #+#    #+#             */
-/*   Updated: 2022/10/18 13:49:36 by loadarys         ###   ########.fr       */
+/*   Updated: 2022/10/18 15:01:22 by loadarys         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
