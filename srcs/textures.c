@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   textures.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrhyhorn <mrhyhorn@student.21-school.ru    +#+  +:+       +#+        */
+/*   By: loadarys <loadarys@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/03 14:55:08 by mrhyhorn          #+#    #+#             */
-/*   Updated: 2022/10/03 14:55:10 by mrhyhorn         ###   ########.fr       */
+/*   Created: 2022/10/03 14:55:08 by loadarys          #+#    #+#             */
+/*   Updated: 2022/10/18 13:49:36 by loadarys         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

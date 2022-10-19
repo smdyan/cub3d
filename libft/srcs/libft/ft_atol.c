@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atol.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrhyhorn <mrhyhorn@student.21-school.ru    +#+  +:+       +#+        */
+/*   By: loadarys <loadarys@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/15 15:54:38 by mrhyhorn          #+#    #+#             */
-/*   Updated: 2022/02/15 17:14:11 by mrhyhorn         ###   ########.fr       */
+/*   Created: 2022/02/15 15:54:38 by loadarys          #+#    #+#             */
+/*   Updated: 2022/10/18 13:49:36 by loadarys         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

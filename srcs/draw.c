@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   draw.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrhyhorn <mrhyhorn@student.21-school.ru    +#+  +:+       +#+        */
+/*   By: loadarys <loadarys@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/03 15:22:20 by mrhyhorn          #+#    #+#             */
-/*   Updated: 2022/10/03 15:25:57 by mrhyhorn         ###   ########.fr       */
+/*   Created: 2022/10/18 11:55:56 by loadarys          #+#    #+#             */
+/*   Updated: 2022/10/18 11:56:01 by loadarys         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

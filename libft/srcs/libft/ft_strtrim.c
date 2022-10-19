@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrhyhorn <mrhyhorn@student.21-school.ru    +#+  +:+       +#+        */
+/*   By: loadarys <loadarys@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/12 16:38:39 by mrhyhorn          #+#    #+#             */
-/*   Updated: 2022/01/20 19:07:00 by mrhyhorn         ###   ########.fr       */
+/*   Created: 2021/10/12 16:38:39 by loadarys          #+#    #+#             */
+/*   Updated: 2022/10/18 13:49:36 by loadarys         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

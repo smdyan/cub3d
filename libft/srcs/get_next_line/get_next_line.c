@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrhyhorn <mrhyhorn@student.21-school.ru    +#+  +:+       +#+        */
+/*   By: loadarys <loadarys@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/06 01:34:21 by mrhyhorn          #+#    #+#             */
-/*   Updated: 2022/03/31 19:28:46 by mrhyhorn         ###   ########.fr       */
+/*   Created: 2021/11/06 01:34:21 by loadarys          #+#    #+#             */
+/*   Updated: 2022/10/18 13:49:36 by loadarys         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
