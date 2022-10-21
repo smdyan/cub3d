@@ -1,19 +1,5 @@
-###########################
-#         NAME            #
-###########################
 NAME =  	libft.a
-
-###########################
-#         DIRS            #
-###########################
-DIR_LIB_SRCS = srcs/
-DIR_LIB = libft/
-DIR_GNL = get_next_line/
-
-###########################
-#         FILES           #
-###########################
-LIBFT_FILES =  ft_abs.c ft_atoi.c ft_atol.c\
+SRC =  ft_abs.c ft_atoi.c ft_atol.c\
 			ft_atoll.c ft_bzero.c ft_calloc.c\
 			ft_isalnum.c ft_isalpha.c ft_isascii.c\
 			ft_isdigit.c ft_isprint.c ft_memchr.c\
@@ -30,52 +16,33 @@ LIBFT_FILES =  ft_abs.c ft_atoi.c ft_atol.c\
 			ft_lstsize.c ft_lstlast.c ft_lstadd_back.c\
 			ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c\
 			ft_max.c ft_fmax.c ft_free_split.c ft_memdel.c\
-			ft_splitlen.c ft_itoa_base.c
-
-GNL_FILES = get_next_line.c get_next_line_utils.c
-
-FT_PRINTF_FILES = 	ft_printf.c\
-					ft_putchar.c ft_puthex.c ft_putnbr.c\
-					ft_putptr.c ft_putstr.c ft_putuint.c
+			ft_splitlen.c ft_itoa_base.c\
+			get_next_line.c get_next_line_utils.c
 
 HEADERS = 	-I ./includes/
 
-C_FILES_LIBFT = $(addprefix $(DIR_LIB), $(LIBFT_FILES))
-O_FILES_LIBFT = $(C_FILES_LIBFT:.c=.o)
-D_FILES_LIBFT = $(C_FILES_LIBFT:.c=.d)
-
-C_FILES_GNL = $(addprefix $(DIR_GNL), $(GNL_FILES))
-O_FILES_GNL = $(C_FILES_GNL:.c=.o)
-D_FILES_GNL = $(C_FILES_GNL:.c=.d)
-
-SRCS_ALL = $(addprefix $(DIR_LIB_SRCS), $(C_FILES_LIBFT) $(C_FILES_GNL))
-OBJ_ALL = $(addprefix $(DIR_LIB_SRCS), $(O_FILES_LIBFT) $(O_FILES_GNL))
-D_FILES_ALL = $(addprefix $(DIR_LIB_SRCS), $(D_FILES_LIBFT) $(D_FILES_GNL))
+O_FILES_LIBFT = $(SRC:.c=.o)
+D_FILES_LIBFT = $(SRC:.c=.d)
 
 CFLAGS = -Wall -Wextra -Werror
-
-GREEN 	= 	\033[0;32m
-BREAK 	= 	\033[0m
-BLUE	=	\033[0;34m
 
 .PHONY : all clean fclean re
 
 all : $(NAME)
 
-$(NAME) : $(OBJ_ALL)
+$(NAME) : $(O_FILES_LIBFT)
 	ar rc $(NAME) $?
 	ranlib $(NAME)
-	@echo "$(BLUE)$(NAME)$(GREEN) --> DONE!$(BREAK)"
 
 %.o : %.c
 	cc $(CFLAGS) $(HEADERS) -c $< -o $@ -MD
 
 clean :
-	rm -f $(OBJ_ALL) $(D_FILES_ALL)
+	rm -f $(O_FILES_LIBFT) $(D_FILES_LIBFT)
 
 fclean : clean
 	rm -f $(NAME)
 
 re : fclean all
 
--include $(D_FILES_ALL)
+-include $(D_FILES_LIBFT)
