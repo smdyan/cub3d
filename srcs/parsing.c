@@ -60,21 +60,21 @@ void	ft_parse_file(t_data *data, char *file)
 	int			count_ids;
 
 	if (!ft_check_ext(file))
-		ft_exit_error("Error\nInvalid map extension\n");
+		ft_exit_error("Error: Invalid map extension\n");
 	fd = open(file, O_RDONLY);
 	if (fd < 0)
-		ft_exit_error("Error\nOpening file\n");
+		ft_exit_error("Error: Opening file\n");
 	count_ids = 0;
 	line = ft_get_info(data, fd, &count_ids);
 	if (line == NULL || !ft_check_identifiers(data->elems) || count_ids != 6)
 	{
 		close(fd);
-		ft_free_exit_msg(data, "Error\nInvalid identifiers\n");
+		ft_free_exit_msg(data, "Error: Invalid identifiers\n");
 	}
 	if (!ft_parse_map(data, line, fd, file))
 	{
 		close(fd);
-		ft_free_exit_msg(data, "Error\nInvalid map\n");
+		ft_free_exit_msg(data, "Error: Invalid map\n");
 	}
 	close(fd);
 }

@@ -43,7 +43,7 @@ int	ft_render(t_data *data)
 	ft_draw_bg_ceiling(data);
 	ft_draw_loop(data);
 	ft_key_hooks(data);
-	ft_draw_minimap(data);
+//	ft_draw_minimap(data);
 	if (data->move.move_speed_val < 1.5 || data->move.move_speed_val > 6.0)
 		data->move.move_speed_val = 1.5;
 	data->move.move_speed = (double)(60 / 1000.0 * data->move.move_speed_val);

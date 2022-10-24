@@ -1,12 +1,12 @@
 F 220,100,0
 
-NO        ./textures/blue_light.xpm
+NO      ./textures/blue_light.xpm
 
-        SO    ./textures/concrete.xpm
+SO      ./textures/concrete.xpm
 
-       WE       ./textures/tech_0G.xpm
+WE      ./textures/tech_0G.xpm
 
-EA        ./textures/win_blue_light.xpm
+EA      ./textures/win_blue_light.xpm
 
 C 255,255,255
 
