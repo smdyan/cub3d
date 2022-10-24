@@ -37,18 +37,7 @@
 # define SO				2
 # define EA				3
 
-/*KEYS
-# ifdef LINUX_KEYS
-#  define ESC	6537
-#  define W		119
-#  define A		97
-#  define S		115
-#  define D		100
-#  define LEFT	65361
-#  define RIGHT	65363
-#  define PLUS	65451
-#  define MIN	65453
-# endif*/
+/*KEYS*/
 # ifdef DARWIN_KEYS
 #  define ESC	53
 #  define W		13
@@ -185,9 +174,6 @@ void			ft_init_data(t_data *data);
 void			ft_exit_error(char *error);
 void			ft_game_msg(char *msg);
 
-/*/ delete!!!
-void			ft_printf_split(char **str);*/
-
 /*clear.c*/
 int				ft_free_exit(t_data *data);
 int				ft_free_exit_msg(t_data *data, char *error);
@@ -251,8 +237,5 @@ void			ft_calc_step_first_intersect(t_move *mv);
 void			ft_dda(t_move *mv, char **map);
 void			ft_calc_wall_dist_and_ray_height(t_move *mv);
 
-/*minimap.c*/
-//void			ft_draw_minimap(t_data *data);
-//void			ft_minimap_init(t_data *data);
 
 #endif

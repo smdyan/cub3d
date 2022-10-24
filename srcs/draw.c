@@ -40,6 +40,5 @@ void	ft_start_draw(t_data *data)
 	data->map->floor = ft_convert_color(data->elems->floor_clr);
 	data->map->ceiling = ft_convert_color(data->elems->ceiling_clr);
 	ft_set_initial_pos(data);
-//	ft_minimap_init(data);
 	ft_mlx(data);
 }
