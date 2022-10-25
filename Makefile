@@ -26,10 +26,9 @@ LIB_INC = -L./libft/ -lft
 
 OPFLAGS = -O2
 CC = cc
-CFLAGS = -g -Wall -Wextra -Werror
-SANIT_FLAGS = cc -fsanitize=address $(CFLAGS)
+CFLAGS = -Wall -Wextra -Werror
 
-.PHONY : all lib clean fclean sanit_m re
+.PHONY : all lib clean fclean re
 
 all : lib $(NAME)
 
@@ -56,9 +55,5 @@ fclean : clean
 	rm -f $(NAME)
 
 re : fclean all
-
-sanit_m :
-	make
-	$(SANIT_FLAGS) $(OBJS_M) $(LIB_INC) $(MLX) -o $(NAME)
 
 -include $(D_FILES_M)

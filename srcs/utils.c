@@ -48,14 +48,3 @@ void	ft_game_msg(char *msg)
 	ft_putstr_fd(msg, STDOUT_FILENO);
 	ft_putstr_fd(BREAK, STDOUT_FILENO);
 }
-
-void	ft_printf_split(char **split)
-{
-	int	i;
-
-	i = -1;
-	if (split == NULL || *split == NULL)
-		return ;
-	while (split[++i])
-		printf("%s\n", split[i]);
-}

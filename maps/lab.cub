@@ -1,10 +1,10 @@
-SO        /Users/lily/cub3d/git_smd/textures/concrete.xpm
+SO        textures/concrete.xpm
 
-        NO    /Users/lily/cub3d/git_smd/textures/win_blue_light.xpm
+NO    textures/win_blue_light.xpm
 
-       WE       /Users/lily/cub3d/git_smd/textures/blue_light.xpm
+WE       textures/blue_light.xpm
 
-EA        /Users/lily/cub3d/git_smd/textures/tech_0G.xpm
+EA        textures/tech_0G.xpm
 
        F     2 , 47 , 56
 
@@ -13,7 +13,7 @@ C 51, 102, 255
 
 
 111111111111111111111111
-1S1000001000000000000001
+1N1000001000000000000001
 101011101011110111111101
 101010001010000100000001
 101010111010111101111111

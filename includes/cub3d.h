@@ -237,5 +237,4 @@ void			ft_calc_step_first_intersect(t_move *mv);
 void			ft_dda(t_move *mv, char **map);
 void			ft_calc_wall_dist_and_ray_height(t_move *mv);
 
-
 #endif
