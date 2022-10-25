@@ -66,10 +66,7 @@ int	ft_key_hooks(t_data *data)
 
 	key = &data->keys;
 	if (key->esc == 1)
-	{
-		ft_game_msg("Quit\n");
 		ft_free_exit(data);
-	}
 	if (key->w == 1)
 		ft_move_up(data, &data->move);
 	if (key->d == 1)
